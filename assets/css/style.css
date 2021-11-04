@@ -648,7 +648,7 @@ section {
 .products .box {
   padding: 30px;
   /* width: 75%; */
-  box-shadow: 0px 0 20px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   border-radius: 8px;
   text-align: center;
   transition: 0.3s;
@@ -662,8 +662,12 @@ section {
 }
 
 .products .box h3 {
+  text-align: left;
   font-size: 24px;
   margin-bottom: 18px;
+}
+.products .owl-carousel ul li{
+  text-align: left !important;
 }
 
 .products .box:hover {
@@ -684,6 +688,64 @@ section {
   /* color: white; */
 }
 
+.products .btn-primary{
+  background-color: #966812;
+  border-color: #966812;
+}
+
+.products .btn-primary a{
+  color: #fff;
+}
+
+.products .btn-primary:hover{
+  background-color: #E2C373;
+  border-color: #E2C373;
+  /* opacity: 2; */
+}
+
+.owl-carousel .owl-nav{
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #966812;
+}
+
+
+.owl-carousel .item {
+    text-align: center;
+}
+.owl-carousel .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+/* .owl-carousel .prev-slide{
+    background: url(/assets/img/chevron-left-solid.svg) no-repeat scroll 0 0;
+    left: -33px;
+}
+.owl-carousel .next-slide{
+    background: url(/assets/img/chevron-left-solid.svg) no-repeat scroll -24px 0px;
+    right: -33px;
+} */
+.owl-carousel .prev-slide:hover{
+   background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover{
+  background-position: -24px -53px;
+}
+
 @media(max-width: 768px) {
   .products h2 {
     text-align: center;
@@ -700,6 +762,14 @@ section {
 
   .products .box {
     margin-bottom: 20px;
+  }
+
+  .products .box h3{
+    text-align: center;
+  }
+  
+  .products .owl-carousel ul{
+    padding-bottom: 40px;
   }
 }
 
@@ -1019,7 +1089,7 @@ section {
 }
 
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  color: #966812;
 }
 
 .footer .footer-top h4 {
