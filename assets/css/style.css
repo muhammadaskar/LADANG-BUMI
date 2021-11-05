@@ -589,6 +589,7 @@ section {
 /*--------------------------------------------------------------
 # Opening
 --------------------------------------------------------------*/
+
 .products h2 {
   font-family: "Arial Narrow", Arial, sans-serif;
   font-style: bold;
@@ -635,6 +636,11 @@ section {
   text-align: left !important;
 }
 
+.products .box h5 {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
 .products .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   cursor: pointer;
@@ -678,7 +684,6 @@ section {
     background: #966812;
 }
 
-
 .owl-carousel .item {
     text-align: center;
 }
@@ -696,14 +701,14 @@ section {
   opacity: 0.2;
 }
 
-/* .owl-carousel .prev-slide{
-    background: url(/assets/img/chevron-left-solid.svg) no-repeat scroll 0 0;
+.owl-carousel .prev-slide{
+    background: url(/assets/img/left-arrow.png) no-repeat scroll 0 0;
     left: -33px;
 }
 .owl-carousel .next-slide{
-    background: url(/assets/img/chevron-left-solid.svg) no-repeat scroll -24px 0px;
+    background: url(/assets/img/next.png) no-repeat scroll -24px 0px;
     right: -33px;
-} */
+}
 .owl-carousel .prev-slide:hover{
    background-position: 0px -53px;
 }

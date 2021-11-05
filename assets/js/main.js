@@ -290,7 +290,7 @@
     // $(".owl-carousel").owlCarousel();
     $('.owl-carousel').owlCarousel({
       loop: true,
-      margin: 20,
+      margin: 10,
       nav: true,
       navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
       responsiveClass: true,
@@ -311,7 +311,7 @@
       }
     })
     $('.customNextBtn').click(function () {
-      owl.trigger('next.owl.carousel');
+      owl.trigger('next.owl.carousel', [300]);
     })
     // Go to the previous item
     $('.customPrevBtn').click(function () {
