@@ -530,7 +530,7 @@ section {
   text-align: justify;
   word-wrap: break-word;
   color: #000;
-  font-size: 26px;
+  font-size: 20px;
   -webkit-text-align: justify;
   /* word-wrap: break-word; */
   word-spacing: 0.5px;
@@ -575,6 +575,7 @@ section {
 
   .opening .content p{
     font-size: 20px;
+    text-align: left;
   }
 
   .opening .opening-box {
@@ -602,7 +603,7 @@ section {
   text-align: justify;
   word-wrap: break-word;
   columns: #000;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 
@@ -715,6 +716,7 @@ section {
 
   .products .content p {
     font-size: 20px;
+    text-align: left;
   }
 
   .products hr {
@@ -758,7 +760,7 @@ section {
   /* line-break: 10px; */
   text-align: justify;
   word-wrap: break-word;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .about img {
@@ -778,6 +780,7 @@ section {
 
   .about p{
     font-size: 20px;
+    text-align: left;
   }
 
   .about hr {
@@ -820,7 +823,7 @@ section {
   -webkit-text-align: justify;
   /* word-wrap: break-word; */
   word-spacing: 0.5px;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 
@@ -832,7 +835,7 @@ section {
 
   .mission-vision .box p{
     font-size: 20px;
-    /* text-align: left; */
+    text-align: left;
   }
 
   .mission-vision hr {
@@ -1029,21 +1032,20 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
   margin-top: 3px;
 }
 
 .footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 18px;
   margin-bottom: 0;
-  /* font-family: "Nunito", sans-serif; */
 }
 
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: 966812;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
