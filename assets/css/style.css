@@ -692,7 +692,7 @@ section {
     position: absolute;
     width: 26px;
     cursor: pointer;
-    top: 100px !important;
+    top: 200px !important;
 }
 
 .owl-carousel .owl-prev.disabled,
@@ -702,11 +702,11 @@ section {
 }
 
 .owl-carousel .prev-slide{
-    background: url(/assets/img/left-arrow.png) no-repeat scroll 0 0;
+    background: url(/assets/img/chevron-left-solid.svg) no-repeat scroll 0 0;
     left: -33px;
 }
 .owl-carousel .next-slide{
-    background: url(/assets/img/next.png) no-repeat scroll -24px 0px;
+    background: url(/assets/img/chevron-right-solid.svg) no-repeat scroll 0 0;
     right: -33px;
 }
 .owl-carousel .prev-slide:hover{
